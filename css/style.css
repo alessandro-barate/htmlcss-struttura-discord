@@ -48,6 +48,10 @@ header {
     background-color: rgb(22, 123, 238);
 }
 
+.coral {
+    background-color: coral;
+}
+
 .col-25 {
     width: 25%;
     padding: 5px;
@@ -65,11 +69,15 @@ header {
     padding: 20px;
 }
 
-.col-66 {
-    width: calc(100% / 3);
+.col-60 {
+    width: 60%;
+    height: 250px;
 }
 
-
+.col-40 {
+    width: 40%;
+    height: 250px;
+}
 
 .small-dx {
     text-align: end;
