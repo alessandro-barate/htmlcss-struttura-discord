@@ -52,6 +52,20 @@ header {
     background-color: coral;
 }
 
+.black {
+    background-color: black;
+}
+
+.gold {
+    background-color: gold;
+    border: 1px dashed black;
+}
+
+.turquoise {
+    background-color: turquoise;
+    border: 1px dashed white;
+}
+
 .col-25 {
     width: 25%;
     padding: 5px;
@@ -60,6 +74,11 @@ header {
 .col-50 {
     width: 50%;
     padding: 5px;
+}
+
+.col-tiny {
+    width: 18%;
+    height: 250px;
 }
 
 .col-55 {
@@ -79,9 +98,19 @@ header {
     height: 250px;
 }
 
-.col-100 {
+.col-28 {
+    width: 30%;
+    height: 250px;
+}
+
+.col-100-big {
     width: 100%;
     height: 500px;
+}
+
+.col-100 {
+    width: 100%;
+    height: 250px;
 }
 
 .small-dx {
