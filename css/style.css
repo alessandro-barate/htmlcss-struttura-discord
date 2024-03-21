@@ -9,9 +9,19 @@ header {
     padding: 10px 0px;
 }
 
+footer {
+    background-color: black;
+    border-top: 1px solid grey;
+}
+
 .container {
     max-width: 1300px;
     margin: 20px auto;
+}
+
+.container-footer {
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .container-pink {
@@ -66,6 +76,10 @@ header {
     border: 1px dashed white;
 }
 
+.lime {
+    background-color: lime;
+}
+
 .col-25 {
     width: 25%;
     padding: 5px;
@@ -113,6 +127,12 @@ header {
     height: 250px;
 }
 
+.col-100-tiny {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
 .small-dx {
     text-align: end;
 }
@@ -120,6 +140,10 @@ header {
 .d-flex {
     display: flex;
     justify-content: center;
+}
+
+.space {
+    justify-content: space-between;
 }
 
 .link {
