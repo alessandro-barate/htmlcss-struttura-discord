@@ -142,10 +142,21 @@ footer {
     justify-content: center;
 }
 
+.d-flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
 .space {
     justify-content: space-between;
 }
 
 .link {
     width: 6%;
+}
+
+.footer-button {
+    width: 60px;
+    text-align: center;
+    padding: 3px;
 }
